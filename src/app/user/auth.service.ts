@@ -9,8 +9,8 @@ import { User } from './user.model';
 import {CognitoUserPool, CognitoUserAttribute, CognitoUser, AuthenticationDetails, CognitoUserSession} from 'amazon-cognito-identity-js';
 
 const POOL_DATA = {
-  UserPoolId:'eu-west-1_LkAMTU2rI',
-  ClientId: '1ihu2sbfhq4d9j822alrqf8vv0'
+  UserPoolId:'<>',
+  ClientId: '<>'
 };
 
 const USER_POOL = new CognitoUserPool(POOL_DATA);
